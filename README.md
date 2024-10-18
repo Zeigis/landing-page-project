@@ -5,3 +5,5 @@ This is my first project after learning the basics of HTML and CSS from the Odin
 Through this project I hope to use all that I've learned in the past couple of weeks into a landing page website.
 
 I hope you enjoy!
+
+Boy in Spiderman Costume Photo by Pavel Danilyuk @rocketmann_team

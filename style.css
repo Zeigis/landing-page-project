@@ -30,6 +30,7 @@ a   {
     color: white;
 }
 
+/* This makes a text saying Castro's Website that aligns to the left of the header */
 .header-logo    {
     align-content: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -38,9 +39,28 @@ a   {
     font-weight: bolder;
 }
 
+/* This makes the links on the right and adds fonts to it */
 .header-links   {
     gap: 20px;
     margin-right: 150px;
     font-size: 18px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* This is the whole flexbox that surrounds the text and the picture below the header */
+.layer-one  {
+    display: flex;
+    background-color: navy;
+    justify-content: center;
+    align-content: center;
+    padding: ;
+}
+
+.layer-one, .layer-one-text {
+
+}
+
+.layer-one, .superhero-img  {
+    height: 200px;
+    width: auto;
 }
