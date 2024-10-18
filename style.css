@@ -1,0 +1,46 @@
+/* This is my styles page for index */
+
+/* This is so that the flexboxes take the full space */
+body    {
+    margin: 0;
+}
+
+/* Styles for the header flexbox */
+header  {
+    display: flex;
+    background-color: navy;
+    color: white;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+/* To make the lists side by side */
+ul  {
+    display: flex;
+}
+
+/* To remove bullet points from the lists */
+li  {
+    list-style-type: none;
+}
+
+/* To remove the blue color and underline of links */
+a   {
+    text-decoration: none;
+    color: white;
+}
+
+.header-logo    {
+    align-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 150px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.header-links   {
+    gap: 20px;
+    margin-right: 150px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
