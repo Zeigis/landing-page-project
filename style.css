@@ -57,6 +57,7 @@ a   {
     gap: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 /* This is the flexbox that styles the text to the left of the image */
@@ -93,4 +94,43 @@ a   {
     border-radius: 12px;
     max-width: 100px;
     border: none;
+}
+
+/* This is the flexbox that styles the header for layer two */
+.layer-two-header   {
+    display: flex;
+    flex-wrap: wrap;
+    color: #1F2937;
+    justify-content: center;
+    font-size: 36px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+    font-weight: 900;
+}
+
+/* This is the flexbox that establishes the flexbox and gaps for each element */
+.layer-two  {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* This gives dimensions to image as well as borders */
+.layer-two-images   {
+    height: 200px;
+    width: auto;
+    border-radius: 12px;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+/* Gives styles and establishes how it wants the text to act */
+.layer-two-text {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-top: 5px;
 }
